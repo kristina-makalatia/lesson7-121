@@ -1,0 +1,88 @@
+.wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.child1 {
+    width: 500px;
+    height: 350px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child2 {
+    width: 500px;
+    height: 350px;
+    background-color: yellow;
+}
+
+
+/* section example flex */
+.container {
+    width: 1170px;
+    background-color: lightblue;
+    margin: 0 auto;
+}
+/* pseudo classes */
+.block {
+    width: 371px;
+    height: 374px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.block:nth-child(1) {
+    background-color: lightslategray;
+}
+.block:nth-child(2) {
+    background-color: red;
+}
+.block:nth-child(3) {
+    background-color: yellow;
+}
+.block:nth-child(4) {
+    background-color: green;
+    margin-top: 30px;
+}
+.block:nth-child(5) {
+    background-color: pink;
+    margin-top: 30px;
+}
+.block:nth-child(6) {
+    background-color: blue;
+    margin-top: 30px;
+}
+/* .block:nth-child(odd) {
+    background-color: red;
+}
+.block:nth-child(even) {
+    background-color: blue;
+} */
+
+.line1-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.text-block {
+    width:770px;
+    margin: 0 auto 60px auto;
+    background-color: mediumblue;
+    text-align: center;
+}
+.blue-box {
+    width: 88px;
+    height: 88px;
+    background-color: #325DFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    width: 250px;
+    background-color: mediumseagreen;
+    text-align: center;
+}
